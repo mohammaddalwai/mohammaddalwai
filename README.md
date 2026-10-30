@@ -32,7 +32,7 @@
 
 | Project | What it does | Tech |
 | --- | --- | --- |
-| [**Accented English Speech Recognition**](https://github.com/mohammaddalwai/speech-ft) · [Live demo](https://huggingface.co/spaces/mddalwai/whisper-small-edacc-demo) | Fine-tuned Whisper-small on the EdAcc accented-English corpus. Word error rate on held-out speakers: **22.5% → 16.3%**, checked with a speaker-level bootstrap, 3 training seeds and a forgetting test on read speech. Served as a CPU API (int8) | Whisper-small, CTranslate2, FastAPI, Docker, Hugging Face Spaces |
+| [**Accented English Speech Recognition**](https://github.com/mohammaddalwai/speech-ft) ·  | Fine-tuned Whisper-small on the EdAcc accented-English corpus. Word error rate on held-out speakers: **22.5% → 16.3%**, checked with a speaker-level bootstrap, 3 training seeds and a forgetting test on read speech. Served as a CPU API (int8). [Live demo](https://huggingface.co/spaces/mddalwai/whisper-small-edacc-demo) | Whisper-small, CTranslate2, FastAPI, Docker, Hugging Face Spaces |
 | [**Eye Disease Detection**](https://github.com/mohammaddalwai/Multiple-eye-disease-detection-using-machine-learning) | Web app that classifies an eye image into 5 classes (cataract, diabetic retinopathy, glaucoma, normal, other) and shows symptom and disease info. [Live demo](https://huggingface.co/spaces/mddalwai/eye-detection) | Python, TensorFlow/Keras, MobileNetV2, Flask |
 | **Traffic Flow Prediction (ST-ResNet-TCA)** | Spatio-temporal traffic flow forecasting | Deep learning, Python |
 | **Loan Approval Risk Segmentation** | Groups loan applicants into risk cohorts and explains the drivers with SHAP | Python, SHAP |
